@@ -1,3 +1,5 @@
+# Pizza Sales Analysis
+
 ## **Table of Contents**
 
 - [Pizza Sales Analysis](#pizza-sales-analysis)
