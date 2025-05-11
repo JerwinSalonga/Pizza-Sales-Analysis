@@ -32,7 +32,6 @@ This project analyzes the sales data of a pizza restaurant, examining factors su
 
 An analysis of pizza sales data from 2015 reveals strong revenue performance with a peak in July, reaching $72,000. Total revenue for the year amounted to $817,860, with an average monthly revenue of approximately $68,155. The Classic pizza category leads in both sales volume and revenue, while Supreme pizzas show a strong revenue performance due to higher pricing. However, Chicken and Veggie pizzas, despite their popularity, are underperforming due to their lower pricing. The largest pizza sizes (L) contribute the most to revenue, with Fridays and Saturdays being the busiest days for orders. Additionally, peak order times occur during lunch and dinner hours. Classic Deluxe, Barbecue Chicken, and Hawaiian pizzas are the top sellers, while Brie Carre and Mediterranean pizzas see the lowest sales. Garlic and tomatoes are the most used ingredients across the pizzas, emphasizing the importance of these items in managing inventory effectively.
 
-
 ![Pizza Sales Dashboard Page 1](./Visualizations/pizza_sales_page1.png)
 
 ![Pizza Sales Dashboard Page 2](./Visualizations/pizza_sales_page2.png)
