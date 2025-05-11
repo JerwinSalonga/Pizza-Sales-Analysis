@@ -1,27 +1,25 @@
 ## **Table of Contents**
 
->[!SUMMARY] Table of Contents
-
->- [[README#Pizza Sales Analysis|Pizza Sales Analysis]]
->   - [[README#Project Background|Project Background]]
->   - [[README#Executive Summary|Executive Summary]]
->   - [[README#Insights Deep-Dive|Insights Deep-Dive]]
->       - [[README#Monthly Revenue Analysis|Monthly Revenue Analysis]]
->       - [[README#Revenue by Pizza Category|Revenue by Pizza Category]]
->       - [[README#Pizza Size Analysis|Pizza Size Analysis]]
->       - [[README#Order Volume Analysis|Order Volume Analysis]]
->       - [[README#Peak Order Times|Peak Order Times]]
->       - [[README#Top Selling Pizzas|Top Selling Pizzas]]
->       - [[README#Least Selling Pizzas|Least Selling Pizzas]]
->       - [[README#Ingredient Usage Analysis|Ingredient Usage Analysis]]
->   - [[README#Recommendations|Recommendations]]
->       - [[README#Maximize Peak Period Performance|Maximize Peak Period Performance]]
->       - [[README#Enhance Revenue from Underperforming Categories|Enhance Revenue from Underperforming Categories]]
->       - [[README#Optimize Pizza Size Selection|Optimize Pizza Size Selection]]
->       - [[README#Strengthen Pizza Category Focus|Strengthen Pizza Category Focus]]
->       - [[README#Reinforce Customer Engagement on Peak Order Days|Reinforce Customer Engagement on Peak Order Days]]
->       - [[README#Inventory and Ingredient Optimization|Inventory and Ingredient Optimization]]
->   - [[README#Assumptions and Caveats|Assumptions and Caveats]]
+- [Pizza Sales Analysis](#pizza-sales-analysis)
+  - [Project Background](#project-background)
+  - [Executive Summary](#executive-summary)
+  - [Insights Deep-Dive](#insights-deep-dive)
+    - [Monthly Revenue Analysis](#monthly-revenue-analysis)
+    - [Revenue by Pizza Category](#revenue-by-pizza-category)
+    - [Pizza Size Analysis](#pizza-size-analysis)
+    - [Order Volume Analysis](#order-volume-analysis)
+    - [Peak Order Times](#peak-order-times)
+    - [Top Selling Pizzas](#top-selling-pizzas)
+    - [Least Selling Pizzas](#least-selling-pizzas)
+    - [Ingredient Usage Analysis](#ingredient-usage-analysis)
+  - [Recommendations](#recommendations)
+    - [Maximize Peak Period Performance](#maximize-peak-period-performance)
+    - [Enhance Revenue from Underperforming Categories](#enhance-revenue-from-underperforming-categories)
+    - [Optimize Pizza Size Selection](#optimize-pizza-size-selection)
+    - [Strengthen Pizza Category Focus](#strengthen-pizza-category-focus)
+    - [Reinforce Customer Engagement on Peak Order Days](#reinforce-customer-engagement-on-peak-order-days)
+    - [Inventory and Ingredient Optimization](#inventory-and-ingredient-optimization)
+  - [Assumptions and Caveats](#assumptions-and-caveats)
 
 ## Project Background
 
@@ -34,9 +32,9 @@ This project analyzes the sales data of a pizza restaurant, examining factors su
 An analysis of pizza sales data from 2015 reveals strong revenue performance with a peak in July, reaching $72,000. Total revenue for the year amounted to $817,860, with an average monthly revenue of approximately $68,155. The Classic pizza category leads in both sales volume and revenue, while Supreme pizzas show a strong revenue performance due to higher pricing. However, Chicken and Veggie pizzas, despite their popularity, are underperforming due to their lower pricing. The largest pizza sizes (L) contribute the most to revenue, with Fridays and Saturdays being the busiest days for orders. Additionally, peak order times occur during lunch and dinner hours. Classic Deluxe, Barbecue Chicken, and Hawaiian pizzas are the top sellers, while Brie Carre and Mediterranean pizzas see the lowest sales. Garlic and tomatoes are the most used ingredients across the pizzas, emphasizing the importance of these items in managing inventory effectively.
 
 
-![[pizza_sales_page1.png]] 
+![Pizza Sales Dashboard Page 1](./Visualizations/pizza_sales_page1.png)
 
-![[pizza_sales_page2.png]]
+![Pizza Sales Dashboard Page 2](./Visualizations/pizza_sales_page2.png)
 
 --- 
 ## Insights Deep-Dive
@@ -47,7 +45,7 @@ Looking at the chart, we see that monthly revenue generally remains strong, with
 
 The number of orders and the average order value follow similar patterns. Orders are highest during the peak months, and while the average order value remains relatively stable, it does not compensate for the drop in total orders later in the year.
 
-![[pizza_sales_trend.png]] 
+![Monthly Revenue Trend](./Visualizations/pizza_sales_trend.png) 
 
 ### Revenue by Pizza Category
 
@@ -55,49 +53,49 @@ The data reveals that the "Classic" category leads in revenue, followed by "Supr
 
 This suggests that customers have a strong preference for traditional flavors, making the Classic category a cornerstone of the business. Focusing marketing efforts and menu innovation around these popular classics could further boost overall sales.
 
-![[pizza_category_revenue.png]] 
+![Revenue by Pizza Category](./Visualizations/pizza_category_revenue.png) 
 
 ### Pizza Size Analysis
 
 The data shows that large pizzas (L) are the top revenue generators by a significant margin, followed by medium (M) and small (S) sizes. Extra-large (XL) and double extra-large (XXL) sizes contribute only a small fraction to the total revenue. This pattern suggests that customers prefer larger pizzas, likely for sharing or better value per slice.
 
-![[pizza_size_revenue.png]]
+![Revenue by Pizza Size](./Visualizations/pizza_size_revenue.png)
 
 ### Order Volume Analysis
 
 Fridays and Saturdays see the highest order volumes, with a noticeable dip on Sundays and Mondays. This pattern aligns with typical dining-out behavior, where weekends are peak times. Staffing and inventory should be optimized for these busy days, and targeted marketing (like weekend specials) could further capitalize on this demand.
 
-![[order_trend_per_day.png]] 
+![Order Trend per Day](./Visualizations/order_trend_per_day.png) 
 
 ### Peak Order Times
 
 Orders spike sharply around lunchtime (12–13h) and again in the evening (17–18h). These are your critical service windows. Ensuring fast service and adequate staffing during these hours will help maintain customer satisfaction.
 
-![[order_heatmap.png]] 
+![Order Heatmap](./Visualizations/order_heatmap.png) 
 
 ### Top Selling Pizzas
 
 The Classic Deluxe Pizza leads the pack, closely followed by the Barbecue Chicken, Hawaiian, Pepperoni, and Thai Chicken pizzas. These favorites consistently attract customers, driving both high sales volume and substantial revenue. Their popularity likely stems from familiar flavors, broad appeal, and perhaps effective promotion or placement on the menu.
 
-![[top_selling_pizza.png]] 
+![Top Selling Pizzas](./Visualizations/top_selling_pizza.png) 
 
 ### Least Selling Pizzas
 
 On the other end, pizzas like the Brie Carre, Mediterranean, Calabrese, Spinach Supreme, and Soppressata see much lower sales. These options may cater to more niche tastes, have less visibility, or simply don't resonate as strongly with the customer base.
 
-![[least_selling_pizza.png]]
+![Least Selling Pizzas](./Visualizations/least_selling_pizza.png)
 
 ### Ingredient Usage Analysis
 
 Garlic and tomatoes are the most heavily used ingredients, each used in over 27,000 pizzas. Basic ingredients (garlic, tomatoes, red onions) dominate the top usage, suggesting they're crucial for inventory management
 
-![[most_used_ingredients.png]]
+![Most Used Ingredients](./Visualizations/most_used_ingredients.png)
 
 ### What are the least used ingredients?
 
 The least used ingredients are all associated with the Brie Carre Pizza (490 uses each), confirming its status as the lowest-selling pizza
 
-![[least_used_ingredients.png]]
+![Least Used Ingredients](./Visualizations/least_used_ingredients.png)
 
 --- 
 ## Recommendations
