@@ -2,7 +2,6 @@
 
 ## **Table of Contents**
 
-- [Pizza Sales Analysis](#pizza-sales-analysis)
   - [Project Background](#project-background)
   - [Executive Summary](#executive-summary)
   - [Insights Deep-Dive](#insights-deep-dive)
