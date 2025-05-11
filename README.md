@@ -84,7 +84,7 @@ The Classic Deluxe Pizza leads the pack, closely followed by the Barbecue Chicke
 
 On the other end, pizzas like the Brie Carre, Mediterranean, Calabrese, Spinach Supreme, and Soppressata see much lower sales. These options may cater to more niche tastes, have less visibility, or simply don't resonate as strongly with the customer base.
 
-![Least Selling Pizzas](./Visualizations/least_selling_pizza.png)
+<img src="./Visualizations/least_selling_pizza.png" height="265">
 
 ### Ingredient Usage Analysis
 
